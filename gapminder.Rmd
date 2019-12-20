@@ -28,7 +28,7 @@ gapminder %>%
   scale_x_log10(breaks = c(1000, 10000), label = c("$1000", "$10000")) +
   scale_y_continuous(limits = c(20, 85), breaks = c(40, 60, 80)) +
   scale_color_manual(values = country_colors) +
-  labs(title = "World", 
+  labs(title = "The World Gets Better Every Year", 
        x ="GDP per capital", 
        y= "Life Expectancy") +
   transition_time(year)
